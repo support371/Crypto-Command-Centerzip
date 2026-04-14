@@ -1,0 +1,69 @@
+# Environment
+.env
+.env.local
+.env.production
+.env.*.local
+*.env
+
+# Node
+node_modules/
+.next/
+out/
+dist/
+.pnpm-store/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.eggs/
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Secrets / Keys
+*.pem
+*.key
+*.cert
+secrets/
+.secrets/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Docker
+*.override.yml
+
+# Database
+*.sqlite
+*.db
+
+# Misc
+.cache/
+tmp/
+temp/
